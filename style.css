@@ -1,0 +1,125 @@
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#Info {
+    background-image: url("bg.png");
+}
+
+#header {
+    background: #e3e3e3;
+    background: -moz-linear-gradient(top, #e3e3e3, #c8c8c8);
+    background: -webkit-gradient(linear, left top, left bottom, from(#e3e3e3), to(#c8c8c8));
+    padding: 10px 20px;
+    margin-left: -20px;
+    padding-left: 30;
+    position: relative;
+    -moz-box-shadow: 1px 1px 3px #292929;
+    -webkit-box-shadow: 1px 1px 3px #292929;
+    box-shadow: 1px 1px 3px #292929;
+    color: #454545;
+    text-shadow: 0 1px 0 white;
+    font-family: 'montserrat', sans-serif;
+    font-size: 25;
+    font-weight: bold;
+}
+
+.info {
+    padding: 6px 8px;
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.44);
+    border-radius: 5px;
+    display: block;
+    color: #d4d2d2;
+    font-family: 'roboto', sans-serif;
+    font-size: 18;
+    margin-left: -20px;
+    padding-left: 20px;
+}
+
+.info h4 {
+    font-family: 'roboto', sans-serif;
+    margin: 0 0 5px;
+    text-shadow: 0 1px 0 #355C7D;
+    color: #ffffff;
+    font-size: 22
+}
+
+.info p {
+    padding: 0px;
+    margin: 0 !important;
+    text-indent: 0px;
+    text-align: inherit;
+}
+
+.leaflet-control-layers,
+.leaflet-control-layers-expanded {
+    font-family: 'roboto', sans-serif;
+    font-size: 18;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+    box-shadow: none;
+    margin-bottom: -15px;
+    font-weight: normal;
+}
+
+.leaflet-control-layers .leaflet-control-layers-list {
+    margin-top: -30;
+}
+
+.leaflet-control-layers label {
+    height: 30;
+}
+/* Custom Checkbox */
+
+.leaflet-control-layers-selector {
+    width: 20px;
+    height: 20px;
+    background: #fcfff4;
+    background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead', GradientType=0);
+    margin: 20px auto;
+    -webkit-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.leaflet-control-layers-selector label {
+    cursor: pointer;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 4px;
+    top: 4px;
+    -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 1);
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 1);
+    background: -webkit-linear-gradient(top, #222 0%, #45484d 100%);
+    background: -moz-linear-gradient(top, #222 0%, #45484d 100%);
+    background: -o-linear-gradient(top, #222 0%, #45484d 100%);
+    background: -ms-linear-gradient(top, #222 0%, #45484d 100%);
+    background: linear-gradient(top, #222 0%, #45484d 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#222', endColorstr='#45484d', GradientType=0);
+}
+
+p {
+    font-family: 'roboto', sans-serif;
+    color: white;
+    font-size: 15;
+    padding: 5px;
+    margin-right: 5px;
+    text-align: justify;
+    text-indent: 30px;
+    padding-top: 15;
+}
